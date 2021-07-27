@@ -1,0 +1,27 @@
+@import url(" https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css "); /* Using a url */
+
+*{
+    margin: 0px;
+    padding: 0px;     
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    min-height: 500px;
+
+    border: 1px solid black;
+
+}
+.menu{
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 20px;
+    margin: 0 auto;
+    
+}
+li{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}

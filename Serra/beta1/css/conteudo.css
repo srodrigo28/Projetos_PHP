@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+}
+.top{
+    width: 100%;
+    margin-left: 3%;
+    padding: 50px;
+}
+h1{
+   height: 100px;
+   color:white;
+   text-align: center;
+}
+h1, label{
+    color:white;
+    font-weight: 700;
+}
+label{
+    font-size: 18px;
+}
+.form-control{
+    margin-bottom: 10px;
+}
+card{
+	opacity: 0.5;
+}
