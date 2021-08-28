@@ -3,7 +3,7 @@
 	include('function.php');
 	$query = '';
 	$output = array();
-	$query .= "SELECT * FROM users ";
+	$query .= " SELECT * FROM users ";
 	if(isset($_POST["search"]["value"]))
 	{
 		$query .= 'WHERE first_name LIKE "%'.$_POST["search"]["value"].'%" ';
